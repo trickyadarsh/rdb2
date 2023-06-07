@@ -572,7 +572,7 @@ def queue_markup(_, videoid, chat_id):
         [
             
             InlineKeyboardButton(
-                text="𝑾𝒚𝒏𝒌", url=f"https://wynk.in/music"
+                text="𝑷𝒓𝒂𝒚𝒊𝒕", url=f"https://t.me/plovestatus"
             ),       
             InlineKeyboardButton(
                 text="𝑪𝒍𝒐𝒔𝒆", callback_data=f"close"
