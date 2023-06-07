@@ -25,7 +25,7 @@ def top_play_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝑻𝒐𝒑 𝟏𝟎 𝑾𝒚𝒏𝒌", callback_data="SERVERTOP"
+                text="𝑻𝒐𝒑 𝟏𝟎 𝑷𝒓𝒂𝒚𝒊𝒕", callback_data="SERVERTOP"
             )
         ],
         [
@@ -79,7 +79,7 @@ def top_play_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝑻𝒐𝒑 𝟏𝟎 𝑾𝒚𝒏𝒌", callback_data="SERVERTOP"
+                text="𝑻𝒐𝒑 𝟏𝟎 𝑷𝒓𝒂𝒚𝒊𝒕", callback_data="SERVERTOP"
             )
         ],
         [
