@@ -80,10 +80,10 @@ START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/24474d87a093a868
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/e0e2a126f825d0a693f73.jpg",
+    "https://graph.org/file/24474d87a093a868e538f.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://graph.org/file/e0e2a126f825d0a693f73.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/24474d87a093a868e538f.jpg"
 
 GLOBAL_IMG_URL = "https://graph.org/file/e0e2a126f825d0a693f73.jpg"
 
