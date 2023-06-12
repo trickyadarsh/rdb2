@@ -125,10 +125,10 @@ async def gen_thumb(videoid, user_id):
         try:
             draw.text(
                 (450, 25),
-                f"Enjoy Wynk Music",
-                fill="white",
+                f"Enjoy Pray Music",
+                fill="red",
                 stroke_width=2,
-                stroke_fill="red",
+                stroke_fill="white",
                 font=font,
             )
             if para[0]:
@@ -136,9 +136,9 @@ async def gen_thumb(videoid, user_id):
                 draw.text(
                     ((1280 - text_w) / 2, 530),
                     f"{para[0]}",
-                    fill="white",
+                    fill="red",
                     stroke_width=2,
-                    stroke_fill="red",
+                    stroke_fill="white",
                     font=font,
                 )
             if para[1]:
@@ -146,14 +146,14 @@ async def gen_thumb(videoid, user_id):
                 draw.text(
                     ((1280 - text_w) / 2, 580),
                     f"{para[1]}",
-                    fill="white",
+                    fill="red",
                     stroke_width=2,
-                    stroke_fill="red",
+                    stroke_fill="White",
                     font=font,
                 )
         except:
             pass
-        text_w, text_h = draw.textsize(f"Wynk Duration: {duration} Mins", font=arial)
+        text_w, text_h = draw.textsize(f"Pray server connected: {duration} Mins", font=arial)
         draw.text(
             ((1280 - text_w) / 2, 660),
             f"Wynk Duration: {duration} Mins",
@@ -293,7 +293,7 @@ async def gen_qthumb(videoid, user_id):
                 )
         except:
             pass
-        text_w, text_h = draw.textsize(f"Wynk Duration: {duration} Mins", font=arial)
+        text_w, text_h = draw.textsize(f"Pray Server Connected: {duration} Mins", font=arial)
         draw.text(
             ((1280 - text_w) / 2, 660),
             f"Wynk Duration: {duration} Mins",
